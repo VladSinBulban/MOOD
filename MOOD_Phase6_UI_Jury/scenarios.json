@@ -1,0 +1,6560 @@
+{
+  "version": 2,
+  "description": "MOOD local scenario recipes. Recipes are composable visual treatments, not generative AI. Expanded with curated genre, franchise-inspired and photography recipes. Expanded with curated genre, franchise-inspired and photography recipes.",
+  "settings_defaults": {
+    "exposure": 0.0,
+    "contrast": 1.0,
+    "saturation": 1.0,
+    "temperature": 0.0,
+    "tint": 0.0,
+    "vignette": 0.04,
+    "grain": 0.0,
+    "fade": 0.0
+  },
+  "effect_defaults": {
+    "fog": 0.0,
+    "glow": 0.0,
+    "dust": 0.0,
+    "rain": 0.0,
+    "snow": 0.0
+  },
+  "scenarios": [
+    {
+      "id": "psychological_thriller",
+      "name": "Psychological thriller",
+      "family": "mood",
+      "aliases": [
+        "psychological thriller",
+        "unsettling cinematic",
+        "disturbing atmosphere",
+        "paranoid mood",
+        "eerie tension",
+        "mind-bending thriller",
+        "ominous scene",
+        "uncanny atmosphere"
+      ],
+      "settings": {
+        "exposure": -0.24,
+        "contrast": 1.28,
+        "saturation": 0.72,
+        "temperature": -0.2,
+        "tint": 0.04,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "horror",
+      "name": "Horror cinema",
+      "family": "mood",
+      "aliases": [
+        "horror",
+        "scary",
+        "creepy",
+        "haunted",
+        "nightmare",
+        "sinister",
+        "dread",
+        "macabre",
+        "eerie"
+      ],
+      "settings": {
+        "exposure": -0.38,
+        "contrast": 1.42,
+        "saturation": 0.62,
+        "temperature": -0.25,
+        "tint": -0.03,
+        "vignette": 0.52,
+        "grain": 0.075,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "noir",
+      "name": "Film noir",
+      "family": "mood",
+      "aliases": [
+        "film noir",
+        "noir",
+        "black and white detective",
+        "classic noir",
+        "hardboiled detective",
+        "monochrome noir"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.48,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.46,
+        "grain": 0.08,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "melancholic",
+      "name": "Melancholic cinema",
+      "family": "mood",
+      "aliases": [
+        "melancholic",
+        "melancholy",
+        "sad cinematic",
+        "lonely",
+        "isolation",
+        "bittersweet",
+        "somber",
+        "wistful"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.1,
+        "saturation": 0.68,
+        "temperature": -0.12,
+        "tint": 0.03,
+        "vignette": 0.24,
+        "grain": 0.035,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.05,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dreamy",
+      "name": "Dreamlike",
+      "family": "mood",
+      "aliases": [
+        "dreamy",
+        "dreamlike",
+        "ethereal",
+        "surreal dream",
+        "fantastical soft",
+        "floaty",
+        "otherworldly dream"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 0.86,
+        "saturation": 0.9,
+        "temperature": 0.1,
+        "tint": 0.06,
+        "vignette": 0.1,
+        "grain": 0.01,
+        "fade": 0.13
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.2,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "romantic",
+      "name": "Romantic cinema",
+      "family": "mood",
+      "aliases": [
+        "romantic",
+        "romance film",
+        "tender",
+        "intimate mood",
+        "soft romantic",
+        "love story"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.96,
+        "saturation": 1.04,
+        "temperature": 0.2,
+        "tint": 0.03,
+        "vignette": 0.1,
+        "grain": 0.015,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "epic",
+      "name": "Epic cinematic",
+      "family": "mood",
+      "aliases": [
+        "epic cinematic",
+        "grand cinematic",
+        "monumental",
+        "heroic",
+        "adventure movie",
+        "blockbuster look"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.28,
+        "saturation": 1.08,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.18,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.04,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary realism",
+      "family": "mood",
+      "aliases": [
+        "documentary",
+        "natural realism",
+        "realistic film",
+        "gritty realism",
+        "raw documentary"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.08,
+        "saturation": 0.92,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.025,
+        "fade": 0.01
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "luxury",
+      "name": "Luxury editorial",
+      "family": "mood",
+      "aliases": [
+        "luxury editorial",
+        "luxurious",
+        "high-end fashion",
+        "premium campaign",
+        "elegant editorial",
+        "polished luxury"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.12,
+        "saturation": 0.96,
+        "temperature": 0.06,
+        "tint": 0.01,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.025,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "playful",
+      "name": "Playful colorful",
+      "family": "mood",
+      "aliases": [
+        "playful",
+        "whimsical",
+        "cheerful",
+        "fun colorful",
+        "joyful",
+        "quirky",
+        "lighthearted"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 1.06,
+        "saturation": 1.18,
+        "temperature": 0.08,
+        "tint": 0.02,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "apocalyptic",
+      "name": "Post-apocalyptic",
+      "family": "mood",
+      "aliases": [
+        "post-apocalyptic",
+        "apocalyptic",
+        "end of the world",
+        "desolate wasteland",
+        "ruined world",
+        "abandoned world"
+      ],
+      "settings": {
+        "exposure": -0.22,
+        "contrast": 1.24,
+        "saturation": 0.56,
+        "temperature": -0.12,
+        "tint": 0.02,
+        "vignette": 0.3,
+        "grain": 0.065,
+        "fade": 0.1
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.0,
+        "dust": 0.08,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "mysterious",
+      "name": "Mysterious atmosphere",
+      "family": "mood",
+      "aliases": [
+        "mysterious",
+        "mystery",
+        "secretive",
+        "enigmatic",
+        "unknown presence",
+        "suspenseful"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.2,
+        "saturation": 0.78,
+        "temperature": -0.1,
+        "tint": 0.01,
+        "vignette": 0.32,
+        "grain": 0.035,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cozy",
+      "name": "Cozy warmth",
+      "family": "mood",
+      "aliases": [
+        "cozy",
+        "cosy",
+        "comfortable warm",
+        "hygge",
+        "inviting",
+        "homey",
+        "soft cozy"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.92,
+        "saturation": 1.02,
+        "temperature": 0.32,
+        "tint": 0.03,
+        "vignette": 0.04,
+        "grain": 0.0,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "action",
+      "name": "Action film",
+      "family": "mood",
+      "aliases": [
+        "action movie",
+        "action film",
+        "intense action",
+        "high energy",
+        "fast-paced cinema"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.32,
+        "saturation": 1.06,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.16,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy cinema",
+      "family": "mood",
+      "aliases": [
+        "fantasy",
+        "magical",
+        "enchanted",
+        "fairytale",
+        "fairy tale",
+        "mythic",
+        "enchanted forest"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.04,
+        "saturation": 1.08,
+        "temperature": 0.06,
+        "tint": 0.08,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.1,
+        "glow": 0.16,
+        "dust": 0.05,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sci_fi",
+      "name": "Science fiction",
+      "family": "mood",
+      "aliases": [
+        "science fiction",
+        "sci-fi",
+        "scifi",
+        "futuristic film",
+        "space opera",
+        "alien world aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.22,
+        "saturation": 1.04,
+        "temperature": -0.12,
+        "tint": 0.08,
+        "vignette": 0.16,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.1,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cyberpunk",
+      "name": "Cyberpunk neon",
+      "family": "style",
+      "aliases": [
+        "cyberpunk",
+        "neon city",
+        "synthwave",
+        "retrowave",
+        "futuristic neon",
+        "vaporwave night",
+        "electric city"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.28,
+        "saturation": 1.38,
+        "temperature": -0.18,
+        "tint": 0.2,
+        "vignette": 0.25,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "vintage_film",
+      "name": "Vintage film",
+      "family": "style",
+      "aliases": [
+        "vintage film",
+        "retro film",
+        "analog film",
+        "old film",
+        "film photograph",
+        "film look",
+        "aged photograph"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.9,
+        "saturation": 0.78,
+        "temperature": 0.2,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "polaroid",
+      "name": "Polaroid instant film",
+      "family": "style",
+      "aliases": [
+        "polaroid",
+        "instant film",
+        "instant camera",
+        "faded instant photo"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.88,
+        "saturation": 0.84,
+        "temperature": 0.16,
+        "tint": 0.01,
+        "vignette": 0.02,
+        "grain": 0.035,
+        "fade": 0.16
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.01,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "1990s",
+      "name": "1990s film",
+      "family": "style",
+      "aliases": [
+        "1990s",
+        "90s film",
+        "nineties",
+        "1990s movie",
+        "90s nostalgia"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 0.98,
+        "saturation": 0.88,
+        "temperature": 0.06,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.055,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "1970s",
+      "name": "1970s film",
+      "family": "style",
+      "aliases": [
+        "1970s",
+        "70s film",
+        "seventies",
+        "retro seventies"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 0.92,
+        "saturation": 0.84,
+        "temperature": 0.26,
+        "tint": 0.02,
+        "vignette": 0.1,
+        "grain": 0.085,
+        "fade": 0.14
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal clean editorial",
+      "family": "style",
+      "aliases": [
+        "minimal",
+        "minimalist",
+        "clean editorial",
+        "simple clean",
+        "modern minimal"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.04,
+        "saturation": 0.88,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion editorial",
+      "family": "style",
+      "aliases": [
+        "fashion editorial",
+        "magazine cover",
+        "editorial fashion",
+        "runway campaign",
+        "fashion photography"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.18,
+        "saturation": 0.94,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.08,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "fine_art",
+      "name": "Fine art photography",
+      "family": "style",
+      "aliases": [
+        "fine art",
+        "art photography",
+        "gallery print",
+        "painterly mood",
+        "fine-art photograph"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.06,
+        "saturation": 0.86,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.08,
+        "grain": 0.015,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "black_white",
+      "name": "Black and white",
+      "family": "style",
+      "aliases": [
+        "black and white",
+        "black-and-white",
+        "monochrome",
+        "grayscale",
+        "greyscale",
+        "no color",
+        "remove color"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.18,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.12,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sepia",
+      "name": "Sepia photograph",
+      "family": "style",
+      "aliases": [
+        "sepia",
+        "sepia tone",
+        "brown toned photo",
+        "old sepia photograph"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 0.96,
+        "saturation": 0.45,
+        "temperature": 0.38,
+        "tint": 0.04,
+        "vignette": 0.12,
+        "grain": 0.04,
+        "fade": 0.12
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.025,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cinematic",
+      "name": "Cinematic grade",
+      "family": "style",
+      "aliases": [
+        "cinematic",
+        "movie still",
+        "cinema look",
+        "film still",
+        "cinematic color grading",
+        "movie color grade"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.2,
+        "saturation": 0.92,
+        "temperature": 0.02,
+        "tint": 0.01,
+        "vignette": 0.16,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "anime_palette",
+      "name": "Anime-inspired colors",
+      "family": "style",
+      "aliases": [
+        "anime colors",
+        "anime aesthetic",
+        "animated film palette",
+        "anime inspired",
+        "manga aesthetic"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 1.18,
+        "saturation": 1.2,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.05,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "bleach_bypass",
+      "name": "Bleach bypass",
+      "family": "style",
+      "aliases": [
+        "bleach bypass",
+        "bleach bypass film",
+        "gritty desaturated cinema"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.42,
+        "saturation": 0.48,
+        "temperature": -0.04,
+        "tint": 0.0,
+        "vignette": 0.18,
+        "grain": 0.035,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "night",
+      "name": "Night scene",
+      "family": "time",
+      "aliases": [
+        "night",
+        "nighttime",
+        "midnight",
+        "after dark",
+        "moonlight",
+        "moonlit",
+        "late at night"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.18,
+        "saturation": 0.78,
+        "temperature": -0.18,
+        "tint": 0.02,
+        "vignette": 0.28,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "blue_hour",
+      "name": "Blue hour",
+      "family": "time",
+      "aliases": [
+        "blue hour",
+        "twilight blue",
+        "dusk blue",
+        "early evening blue"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.12,
+        "saturation": 0.9,
+        "temperature": -0.28,
+        "tint": 0.02,
+        "vignette": 0.12,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "golden_hour",
+      "name": "Golden hour",
+      "family": "time",
+      "aliases": [
+        "golden hour",
+        "sunset glow",
+        "sunrise glow",
+        "warm sunset",
+        "sunset",
+        "sunrise",
+        "late afternoon sun"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 1.06,
+        "saturation": 1.1,
+        "temperature": 0.34,
+        "tint": 0.02,
+        "vignette": 0.05,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "overcast",
+      "name": "Overcast day",
+      "family": "time",
+      "aliases": [
+        "overcast",
+        "cloudy day",
+        "flat cloudy light",
+        "grey sky",
+        "gray sky"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 0.9,
+        "saturation": 0.82,
+        "temperature": -0.08,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.01,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.02,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny afternoon",
+      "family": "time",
+      "aliases": [
+        "sunny",
+        "sunny afternoon",
+        "bright sunshine",
+        "clear sunny day",
+        "summer sunlight"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 1.08,
+        "saturation": 1.08,
+        "temperature": 0.16,
+        "tint": 0.0,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.05,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "fog",
+      "name": "Fog and mist",
+      "family": "weather",
+      "aliases": [
+        "fog",
+        "foggy",
+        "mist",
+        "misty",
+        "haze",
+        "hazy",
+        "low lying fog",
+        "dense fog",
+        "rolling mist"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 0.9,
+        "saturation": 0.86,
+        "temperature": -0.08,
+        "tint": 0.02,
+        "vignette": 0.05,
+        "grain": 0.0,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.42,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "rain",
+      "name": "Rain and storm",
+      "family": "weather",
+      "aliases": [
+        "rain",
+        "rainy",
+        "rainstorm",
+        "storm",
+        "stormy",
+        "wet weather",
+        "downpour",
+        "drizzle",
+        "after the rain"
+      ],
+      "settings": {
+        "exposure": -0.1,
+        "contrast": 1.08,
+        "saturation": 0.78,
+        "temperature": -0.18,
+        "tint": 0.01,
+        "vignette": 0.12,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.06,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.28,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "snow",
+      "name": "Snowfall",
+      "family": "weather",
+      "aliases": [
+        "snow",
+        "snowy",
+        "snowfall",
+        "blizzard",
+        "snowstorm",
+        "winter storm",
+        "falling snow"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.02,
+        "saturation": 0.78,
+        "temperature": -0.24,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.0,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.3
+      }
+    },
+    {
+      "id": "dust",
+      "name": "Dusty atmosphere",
+      "family": "weather",
+      "aliases": [
+        "dusty",
+        "dust in the air",
+        "dust particles",
+        "desert dust",
+        "hazy dust",
+        "floating dust"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 0.98,
+        "saturation": 0.84,
+        "temperature": 0.1,
+        "tint": 0.02,
+        "vignette": 0.06,
+        "grain": 0.01,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.01,
+        "dust": 0.2,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "windy",
+      "name": "Windy and stormy",
+      "family": "weather",
+      "aliases": [
+        "windy",
+        "windstorm",
+        "gusty",
+        "storm clouds",
+        "approaching storm"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.16,
+        "saturation": 0.84,
+        "temperature": -0.1,
+        "tint": 0.0,
+        "vignette": 0.12,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.0,
+        "dust": 0.08,
+        "rain": 0.08,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "warm",
+      "name": "Warm tones",
+      "family": "color",
+      "aliases": [
+        "warm tones",
+        "warm colors",
+        "warm colours",
+        "amber",
+        "golden tones",
+        "warm light",
+        "warm color grade"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.04,
+        "saturation": 1.04,
+        "temperature": 0.42,
+        "tint": 0.02,
+        "vignette": 0.04,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cold",
+      "name": "Cold tones",
+      "family": "color",
+      "aliases": [
+        "cold tones",
+        "cool tones",
+        "icy blue",
+        "cold blue",
+        "blue tint",
+        "cool color grade",
+        "cold color grade"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.1,
+        "saturation": 0.88,
+        "temperature": -0.42,
+        "tint": 0.01,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "teal_orange",
+      "name": "Teal and orange",
+      "family": "color",
+      "aliases": [
+        "teal and orange",
+        "teal-orange",
+        "teal orange grade",
+        "blockbuster teal orange",
+        "orange and teal"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.22,
+        "saturation": 1.04,
+        "temperature": 0.04,
+        "tint": 0.06,
+        "vignette": 0.12,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "pastel",
+      "name": "Pastel palette",
+      "family": "color",
+      "aliases": [
+        "pastel",
+        "pastel colors",
+        "pastel colours",
+        "soft pastel palette",
+        "muted pastel"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 0.82,
+        "saturation": 0.78,
+        "temperature": 0.08,
+        "tint": 0.06,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.12
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "vibrant",
+      "name": "Vibrant colors",
+      "family": "color",
+      "aliases": [
+        "vibrant",
+        "vivid colors",
+        "vivid colours",
+        "colorful",
+        "colourful",
+        "high saturation",
+        "punchy colors"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.12,
+        "saturation": 1.34,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "muted",
+      "name": "Muted colors",
+      "family": "color",
+      "aliases": [
+        "muted colors",
+        "muted colours",
+        "desaturated",
+        "low saturation",
+        "subdued colors",
+        "subdued colours",
+        "soft colors"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 0.94,
+        "saturation": 0.6,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.01,
+        "fade": 0.05
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "red",
+      "name": "Red color grade",
+      "family": "color",
+      "aliases": [
+        "red tones",
+        "crimson",
+        "deep red",
+        "red color grade",
+        "red colour grade"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.12,
+        "saturation": 1.02,
+        "temperature": 0.02,
+        "tint": 0.18,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "green",
+      "name": "Green color grade",
+      "family": "color",
+      "aliases": [
+        "green tones",
+        "sickly green",
+        "verdant green",
+        "green color grade",
+        "green colour grade"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.08,
+        "saturation": 0.92,
+        "temperature": -0.08,
+        "tint": -0.12,
+        "vignette": 0.1,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "purple",
+      "name": "Purple color grade",
+      "family": "color",
+      "aliases": [
+        "purple tones",
+        "violet tones",
+        "purple color grade",
+        "purple colour grade",
+        "magenta glow"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.12,
+        "saturation": 1.08,
+        "temperature": -0.04,
+        "tint": 0.2,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.07,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "portrait",
+      "name": "Portrait enhancement",
+      "family": "subject",
+      "aliases": [
+        "portrait",
+        "headshot",
+        "face portrait",
+        "portrait photo",
+        "beauty portrait"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.98,
+        "saturation": 0.98,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "landscape",
+      "name": "Landscape photography",
+      "family": "subject",
+      "aliases": [
+        "landscape",
+        "mountain landscape",
+        "nature landscape",
+        "scenic view",
+        "wide landscape"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.12,
+        "saturation": 1.06,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture photography",
+      "family": "subject",
+      "aliases": [
+        "architecture",
+        "architectural photo",
+        "building photography",
+        "urban architecture"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.16,
+        "saturation": 0.88,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "street",
+      "name": "Street photography",
+      "family": "subject",
+      "aliases": [
+        "street photography",
+        "urban street",
+        "city street",
+        "street photo",
+        "urban documentary"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.16,
+        "saturation": 0.92,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "food",
+      "name": "Food photography",
+      "family": "subject",
+      "aliases": [
+        "food photography",
+        "food photo",
+        "restaurant menu photo",
+        "culinary photography"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 1.06,
+        "saturation": 1.1,
+        "temperature": 0.1,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "product",
+      "name": "Product photography",
+      "family": "subject",
+      "aliases": [
+        "product photography",
+        "product shot",
+        "commercial product",
+        "ecommerce photo"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.1,
+        "saturation": 0.98,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "forest",
+      "name": "Forest atmosphere",
+      "family": "subject",
+      "aliases": [
+        "forest",
+        "woodland",
+        "pine forest",
+        "dark woods",
+        "deep woods"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 0.92,
+        "temperature": -0.06,
+        "tint": -0.02,
+        "vignette": 0.12,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.0,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "beach",
+      "name": "Beach and coast",
+      "family": "subject",
+      "aliases": [
+        "beach",
+        "coastline",
+        "seaside",
+        "ocean shore",
+        "tropical shore"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.04,
+        "saturation": 1.12,
+        "temperature": 0.12,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "desert",
+      "name": "Desert atmosphere",
+      "family": "subject",
+      "aliases": [
+        "desert",
+        "arid landscape",
+        "sand dunes",
+        "desert heat",
+        "sandy wasteland"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.1,
+        "saturation": 0.84,
+        "temperature": 0.34,
+        "tint": 0.03,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.04,
+        "dust": 0.12,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "underwater",
+      "name": "Underwater look",
+      "family": "subject",
+      "aliases": [
+        "underwater",
+        "under water",
+        "deep sea",
+        "ocean depths",
+        "submerged",
+        "aquatic blue"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.06,
+        "saturation": 0.82,
+        "temperature": -0.3,
+        "tint": 0.02,
+        "vignette": 0.1,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.14,
+        "glow": 0.06,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_focus",
+      "name": "Soft focus",
+      "family": "effect",
+      "aliases": [
+        "soft focus",
+        "soften image",
+        "soft dreamy focus",
+        "diffused lens"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 0.88,
+        "saturation": 0.98,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "glow",
+      "name": "Glow and bloom",
+      "family": "effect",
+      "aliases": [
+        "glow",
+        "bloom",
+        "blooming highlights",
+        "soft light bloom",
+        "glowing highlights",
+        "halation"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 0.98,
+        "saturation": 1.0,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.28,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "grain",
+      "name": "Film grain",
+      "family": "effect",
+      "aliases": [
+        "film grain",
+        "grainy",
+        "analog grain",
+        "visible grain",
+        "texture grain"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.1,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "vignette",
+      "name": "Vignette",
+      "family": "effect",
+      "aliases": [
+        "vignette",
+        "dark edges",
+        "darkened corners",
+        "edge darkening"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.35,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sharp",
+      "name": "Crisp and sharp",
+      "family": "effect",
+      "aliases": [
+        "sharp",
+        "crisp",
+        "sharpen",
+        "crisp details",
+        "clear details"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.12,
+        "saturation": 1.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft",
+      "name": "Soft and faded",
+      "family": "effect",
+      "aliases": [
+        "soft colors",
+        "soft contrast",
+        "faded look",
+        "gentle tones"
+      ],
+      "settings": {
+        "exposure": 0.05,
+        "contrast": 0.84,
+        "saturation": 0.88,
+        "temperature": 0.03,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.1
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "high_key",
+      "name": "High-key bright",
+      "family": "style",
+      "aliases": [
+        "high key",
+        "high-key",
+        "bright airy",
+        "airy bright photography"
+      ],
+      "settings": {
+        "exposure": 0.3,
+        "contrast": 0.88,
+        "saturation": 0.96,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "low_key",
+      "name": "Low-key dramatic",
+      "family": "style",
+      "aliases": [
+        "low key",
+        "low-key",
+        "deep shadows",
+        "dark low key lighting"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.34,
+        "saturation": 0.82,
+        "temperature": -0.06,
+        "tint": 0.0,
+        "vignette": 0.28,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "bleak",
+      "name": "Bleak winter cinema",
+      "family": "style",
+      "aliases": [
+        "bleak",
+        "bleak winter",
+        "bleak cinematic",
+        "cold bleak atmosphere"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.12,
+        "saturation": 0.56,
+        "temperature": -0.34,
+        "tint": 0.0,
+        "vignette": 0.14,
+        "grain": 0.03,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.14,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.06
+      }
+    },
+    {
+      "id": "dream_pop",
+      "name": "Dream pop haze",
+      "family": "style",
+      "aliases": [
+        "dream pop",
+        "hazy dreamy",
+        "soft nostalgic haze"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.84,
+        "saturation": 0.94,
+        "temperature": 0.1,
+        "tint": 0.05,
+        "vignette": 0.06,
+        "grain": 0.015,
+        "fade": 0.12
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "grunge",
+      "name": "Grunge texture",
+      "family": "style",
+      "aliases": [
+        "grunge",
+        "grungy",
+        "rough analog",
+        "dirty film look"
+      ],
+      "settings": {
+        "exposure": -0.1,
+        "contrast": 1.28,
+        "saturation": 0.7,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.18,
+        "grain": 0.1,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.05,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "bleached_summer",
+      "name": "Bleached summer film",
+      "family": "style",
+      "aliases": [
+        "bleached summer",
+        "washed out summer",
+        "sun faded film"
+      ],
+      "settings": {
+        "exposure": 0.16,
+        "contrast": 0.82,
+        "saturation": 0.66,
+        "temperature": 0.2,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.025,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "moody_blue",
+      "name": "Moody blue cinema",
+      "family": "style",
+      "aliases": [
+        "moody blue",
+        "blue cinematic",
+        "cold blue shadows"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.24,
+        "saturation": 0.78,
+        "temperature": -0.3,
+        "tint": 0.04,
+        "vignette": 0.2,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "warm_film",
+      "name": "Warm film cinema",
+      "family": "style",
+      "aliases": [
+        "warm film",
+        "warm cinematic",
+        "amber cinematic",
+        "copper film look"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.1,
+        "saturation": 0.92,
+        "temperature": 0.28,
+        "tint": 0.02,
+        "vignette": 0.12,
+        "grain": 0.03,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "surveillance",
+      "name": "Surveillance footage",
+      "family": "style",
+      "aliases": [
+        "surveillance footage",
+        "security camera look",
+        "cctv look",
+        "security monitor"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.18,
+        "saturation": 0.36,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.1,
+        "grain": 0.055,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "music_video",
+      "name": "Music video grade",
+      "family": "style",
+      "aliases": [
+        "music video",
+        "music-video look",
+        "album visual",
+        "music visualizer still"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.2,
+        "saturation": 1.16,
+        "temperature": 0.02,
+        "tint": 0.05,
+        "vignette": 0.12,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.08,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cinematic_warm",
+      "name": "Warm cinematic sunset",
+      "family": "variant",
+      "aliases": [
+        "warm cinematic sunset",
+        "sunlit movie still",
+        "golden cinematic scene"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 1.14,
+        "saturation": 1.1,
+        "temperature": 0.46,
+        "tint": 0.02,
+        "vignette": 0.05,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cinematic_cold",
+      "name": "Cold cinematic thriller",
+      "family": "variant",
+      "aliases": [
+        "cold cinematic thriller",
+        "blue thriller look",
+        "cold suspense film"
+      ],
+      "settings": {
+        "exposure": -0.24,
+        "contrast": 1.28,
+        "saturation": 0.66,
+        "temperature": -0.3,
+        "tint": 0.04,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.16,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "foggy_noir",
+      "name": "Foggy noir",
+      "family": "variant",
+      "aliases": [
+        "foggy noir",
+        "misty black and white",
+        "noir in the fog"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.56,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.46,
+        "grain": 0.08,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.21,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "rainy_neon",
+      "name": "Rainy neon city",
+      "family": "variant",
+      "aliases": [
+        "rainy neon city",
+        "neon in the rain",
+        "wet cyberpunk street"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.28,
+        "saturation": 1.38,
+        "temperature": -0.18,
+        "tint": 0.2,
+        "vignette": 0.25,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.16,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "autumn_film",
+      "name": "Autumn film",
+      "family": "variant",
+      "aliases": [
+        "autumn film",
+        "fall colors cinematic",
+        "amber autumn photograph"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.9,
+        "saturation": 0.86,
+        "temperature": 0.32,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.04,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "winter_film",
+      "name": "Winter film",
+      "family": "variant",
+      "aliases": [
+        "winter film",
+        "cold vintage photo",
+        "snowy analog cinema"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.9,
+        "saturation": 0.68,
+        "temperature": -0.02,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.02,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.08
+      }
+    },
+    {
+      "id": "dreamy_portrait",
+      "name": "Dreamy portrait",
+      "family": "variant",
+      "aliases": [
+        "dreamy portrait",
+        "soft portrait glow",
+        "ethereal portrait"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.88,
+        "saturation": 0.98,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dark_forest",
+      "name": "Dark forest thriller",
+      "family": "variant",
+      "aliases": [
+        "dark forest thriller",
+        "ominous forest",
+        "haunted woodland"
+      ],
+      "settings": {
+        "exposure": -0.38,
+        "contrast": 1.42,
+        "saturation": 0.62,
+        "temperature": -0.33,
+        "tint": -0.03,
+        "vignette": 0.52,
+        "grain": 0.075,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.34,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sun_faded",
+      "name": "Sun-faded nostalgia",
+      "family": "variant",
+      "aliases": [
+        "sun-faded nostalgia",
+        "old summer memory",
+        "faded holiday film"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.9,
+        "saturation": 0.78,
+        "temperature": 0.28,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.26
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "urban_grit",
+      "name": "Urban gritty cinema",
+      "family": "variant",
+      "aliases": [
+        "urban grit",
+        "gritty city movie",
+        "raw city atmosphere"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.28,
+        "saturation": 0.8,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "pastel_dream",
+      "name": "Pastel dream",
+      "family": "variant",
+      "aliases": [
+        "pastel dream",
+        "soft pastel dreamscape",
+        "dreamy pastel colors"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 0.82,
+        "saturation": 0.78,
+        "temperature": 0.13,
+        "tint": 0.06,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.12
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "desert_epic",
+      "name": "Desert epic",
+      "family": "variant",
+      "aliases": [
+        "desert epic",
+        "cinematic sandstorm",
+        "epic desert scene"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.18,
+        "saturation": 0.84,
+        "temperature": 0.34,
+        "tint": 0.03,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.04,
+        "dust": 0.22,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "moonlit_fog",
+      "name": "Moonlit fog",
+      "family": "variant",
+      "aliases": [
+        "moonlit fog",
+        "mist under moonlight",
+        "foggy midnight"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.18,
+        "saturation": 0.78,
+        "temperature": -0.3,
+        "tint": 0.02,
+        "vignette": 0.28,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.24,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "stormy_mountains",
+      "name": "Stormy mountains",
+      "family": "variant",
+      "aliases": [
+        "stormy mountains",
+        "mountain storm",
+        "dark storm clouds landscape"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.12,
+        "saturation": 0.98,
+        "temperature": -0.08,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.16,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.1,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sunny_film",
+      "name": "Sunny film photo",
+      "family": "variant",
+      "aliases": [
+        "sunny film photo",
+        "summer analog photo",
+        "warm film sunshine"
+      ],
+      "settings": {
+        "exposure": 0.18,
+        "contrast": 0.9,
+        "saturation": 0.78,
+        "temperature": 0.3,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.06,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "neon_portrait",
+      "name": "Neon portrait",
+      "family": "variant",
+      "aliases": [
+        "neon portrait",
+        "cyberpunk portrait",
+        "purple neon portrait"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.28,
+        "saturation": 1.38,
+        "temperature": -0.18,
+        "tint": 0.28,
+        "vignette": 0.25,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.26,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "minimal_cool",
+      "name": "Minimal cool editorial",
+      "family": "variant",
+      "aliases": [
+        "minimal cool editorial",
+        "clean cool tones",
+        "modern blue minimal"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.04,
+        "saturation": 0.88,
+        "temperature": -0.12,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "warm_portrait",
+      "name": "Warm portrait",
+      "family": "variant",
+      "aliases": [
+        "warm portrait",
+        "golden skin tones portrait",
+        "soft warm headshot"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.98,
+        "saturation": 0.98,
+        "temperature": 0.18,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.06,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dramatic_mono",
+      "name": "Dramatic monochrome",
+      "family": "variant",
+      "aliases": [
+        "dramatic monochrome",
+        "high contrast black and white",
+        "dark monochrome"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.36,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.22,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "eerie_vintage",
+      "name": "Eerie vintage film",
+      "family": "variant",
+      "aliases": [
+        "eerie vintage film",
+        "creepy old photograph",
+        "haunted analog photo"
+      ],
+      "settings": {
+        "exposure": -0.14,
+        "contrast": 1.02,
+        "saturation": 0.78,
+        "temperature": 0.08,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.02,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "foggy_coast",
+      "name": "Foggy coast",
+      "family": "variant",
+      "aliases": [
+        "foggy coast",
+        "misty shoreline",
+        "sea fog photography"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.04,
+        "saturation": 1.0,
+        "temperature": -0.04,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.24,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dusty_sunlight",
+      "name": "Dust in sunlight",
+      "family": "variant",
+      "aliases": [
+        "dust in sunlight",
+        "sunbeams through dust",
+        "golden dusty atmosphere"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 1.02,
+        "saturation": 1.1,
+        "temperature": 0.34,
+        "tint": 0.02,
+        "vignette": 0.05,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.2,
+        "dust": 0.14,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dark_product",
+      "name": "Dark product campaign",
+      "family": "variant",
+      "aliases": [
+        "dark product campaign",
+        "dramatic product photo",
+        "premium dark product"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.28,
+        "saturation": 0.98,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.12,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "clean_product",
+      "name": "Clean product shot",
+      "family": "variant",
+      "aliases": [
+        "clean product shot",
+        "bright ecommerce product",
+        "studio product photography"
+      ],
+      "settings": {
+        "exposure": 0.18,
+        "contrast": 1.12,
+        "saturation": 0.98,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "film_landscape",
+      "name": "Analog landscape",
+      "family": "variant",
+      "aliases": [
+        "analog landscape",
+        "vintage mountain photograph",
+        "film nature photo"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.12,
+        "saturation": 0.94,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0,
+        "grain": 0.02
+      }
+    },
+    {
+      "id": "foggy_city",
+      "name": "Foggy city",
+      "family": "variant",
+      "aliases": [
+        "foggy city",
+        "misty city street",
+        "city in thick fog"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.06,
+        "saturation": 0.92,
+        "temperature": -0.02,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.22,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sunset_beach",
+      "name": "Sunset beach",
+      "family": "variant",
+      "aliases": [
+        "sunset beach",
+        "warm coastal sunset",
+        "golden beach hour"
+      ],
+      "settings": {
+        "exposure": 0.13,
+        "contrast": 1.04,
+        "saturation": 1.12,
+        "temperature": 0.28,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.14,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "underwater_dream",
+      "name": "Dream underwater",
+      "family": "variant",
+      "aliases": [
+        "dream underwater",
+        "ethereal underwater",
+        "blue aquatic dream"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 0.98,
+        "saturation": 0.82,
+        "temperature": -0.3,
+        "tint": 0.02,
+        "vignette": 0.1,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.2,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cyberpunk_grunge",
+      "name": "Cyberpunk grunge",
+      "family": "variant",
+      "aliases": [
+        "cyberpunk grunge",
+        "dirty neon city",
+        "gritty synthwave"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.28,
+        "saturation": 1.24,
+        "temperature": -0.18,
+        "tint": 0.2,
+        "vignette": 0.25,
+        "grain": 0.065,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.1,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "bleak_street",
+      "name": "Bleak street cinema",
+      "family": "variant",
+      "aliases": [
+        "bleak street cinema",
+        "empty cold street",
+        "lonely winter city"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.16,
+        "saturation": 0.8,
+        "temperature": -0.2,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "romantic_film",
+      "name": "Romantic film still",
+      "family": "variant",
+      "aliases": [
+        "romantic film still",
+        "soft love story cinema",
+        "warm tender movie scene"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.96,
+        "saturation": 1.04,
+        "temperature": 0.28,
+        "tint": 0.03,
+        "vignette": 0.1,
+        "grain": 0.015,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.2,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0,
+        "grain": 0.01
+      }
+    },
+    {
+      "id": "high_contrast_editorial",
+      "name": "High contrast editorial",
+      "family": "variant",
+      "aliases": [
+        "high contrast editorial",
+        "bold magazine photography",
+        "graphic editorial image"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.34,
+        "saturation": 0.94,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.08,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "hazy_summer",
+      "name": "Hazy summer memory",
+      "family": "variant",
+      "aliases": [
+        "hazy summer memory",
+        "summer haze photo",
+        "nostalgic hazy afternoon"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.84,
+        "saturation": 0.78,
+        "temperature": 0.3,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.18
+      },
+      "effects": {
+        "fog": 0.06,
+        "glow": 0.1,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cold_architecture",
+      "name": "Cold architecture",
+      "family": "variant",
+      "aliases": [
+        "cold architecture",
+        "minimal concrete architecture",
+        "steel blue buildings"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.16,
+        "saturation": 0.8,
+        "temperature": -0.2,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "stormy_sea",
+      "name": "Stormy sea",
+      "family": "variant",
+      "aliases": [
+        "stormy sea",
+        "rough ocean weather",
+        "dark ocean storm"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.16,
+        "saturation": 1.12,
+        "temperature": -0.04,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.1,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "bright_pastel_portrait",
+      "name": "Bright pastel portrait",
+      "family": "variant",
+      "aliases": [
+        "bright pastel portrait",
+        "soft fashion pastel",
+        "airy pastel portrait"
+      ],
+      "settings": {
+        "exposure": 0.2,
+        "contrast": 0.86,
+        "saturation": 0.9,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.07,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "gritty_noir",
+      "name": "Gritty noir",
+      "family": "variant",
+      "aliases": [
+        "gritty noir",
+        "dirty detective film",
+        "hard shadow noir"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.62,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.46,
+        "grain": 0.12,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "faded_roadtrip",
+      "name": "Faded road trip film",
+      "family": "variant",
+      "aliases": [
+        "faded road trip",
+        "old travel snapshot",
+        "nostalgic road trip photo"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 0.98,
+        "saturation": 0.88,
+        "temperature": 0.14,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.055,
+        "fade": 0.16
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0,
+        "grain": 0.02
+      }
+    },
+    {
+      "id": "moonlit_blue",
+      "name": "Moonlit blue cinema",
+      "family": "variant",
+      "aliases": [
+        "moonlit blue cinema",
+        "cold moonlit scene",
+        "blue moonlight"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.18,
+        "saturation": 0.7,
+        "temperature": -0.3,
+        "tint": 0.02,
+        "vignette": 0.28,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.07,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "fantasy_forest",
+      "name": "Enchanted forest",
+      "family": "variant",
+      "aliases": [
+        "enchanted forest",
+        "magical woodland",
+        "fairy forest atmosphere"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.04,
+        "saturation": 1.08,
+        "temperature": 0.02,
+        "tint": 0.08,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.22,
+        "glow": 0.26,
+        "dust": 0.1,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "apocalyptic_dust",
+      "name": "Apocalyptic dust",
+      "family": "variant",
+      "aliases": [
+        "apocalyptic dust",
+        "ash in the air",
+        "desolate ruined landscape"
+      ],
+      "settings": {
+        "exposure": -0.22,
+        "contrast": 1.32,
+        "saturation": 0.56,
+        "temperature": -0.12,
+        "tint": 0.02,
+        "vignette": 0.3,
+        "grain": 0.065,
+        "fade": 0.1
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.0,
+        "dust": 0.2,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_morning",
+      "name": "Soft morning light",
+      "family": "variant",
+      "aliases": [
+        "soft morning light",
+        "gentle dawn",
+        "pastel morning atmosphere"
+      ],
+      "settings": {
+        "exposure": 0.18,
+        "contrast": 0.86,
+        "saturation": 0.9,
+        "temperature": 0.16,
+        "tint": 0.06,
+        "vignette": 0.1,
+        "grain": 0.01,
+        "fade": 0.13
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.26,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "winter_blue_hour",
+      "name": "Winter blue hour",
+      "family": "variant",
+      "aliases": [
+        "winter blue hour",
+        "icy twilight",
+        "cold dusk snow"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.12,
+        "saturation": 0.82,
+        "temperature": -0.38,
+        "tint": 0.02,
+        "vignette": 0.12,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.09,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.1
+      }
+    },
+    {
+      "id": "moody_editorial",
+      "name": "Moody editorial",
+      "family": "variant",
+      "aliases": [
+        "moody editorial",
+        "dark fashion editorial",
+        "dramatic editorial portrait"
+      ],
+      "settings": {
+        "exposure": -0.14,
+        "contrast": 1.3,
+        "saturation": 0.94,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.22,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_analog",
+      "name": "Soft analog film",
+      "family": "variant",
+      "aliases": [
+        "soft analog film",
+        "gentle vintage grain",
+        "faded analog look"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.82,
+        "saturation": 0.78,
+        "temperature": 0.2,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.09,
+        "fade": 0.24
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.05,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "night_rain",
+      "name": "Night rain",
+      "family": "variant",
+      "aliases": [
+        "night rain",
+        "rainy night",
+        "wet midnight street"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.18,
+        "saturation": 0.78,
+        "temperature": -0.26,
+        "tint": 0.02,
+        "vignette": 0.28,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.07,
+        "glow": 0.08,
+        "dust": 0.0,
+        "rain": 0.18,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "misty_mountain",
+      "name": "Misty mountain morning",
+      "family": "variant",
+      "aliases": [
+        "misty mountain morning",
+        "foggy mountain landscape",
+        "mountains in mist"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.06,
+        "saturation": 1.06,
+        "temperature": -0.06,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.28,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "golden_dust",
+      "name": "Golden dusty film",
+      "family": "variant",
+      "aliases": [
+        "golden dusty film",
+        "amber dust cinematic",
+        "sunlit dust particles"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 1.06,
+        "saturation": 1.1,
+        "temperature": 0.44,
+        "tint": 0.02,
+        "vignette": 0.05,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.2,
+        "dust": 0.16,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "deep_green_forest",
+      "name": "Deep green forest",
+      "family": "variant",
+      "aliases": [
+        "deep green forest",
+        "lush dark woodland",
+        "emerald forest"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 1.0,
+        "temperature": -0.06,
+        "tint": -0.08,
+        "vignette": 0.12,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.0,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_white_studio",
+      "name": "Soft white studio",
+      "family": "variant",
+      "aliases": [
+        "soft white studio",
+        "bright studio portrait",
+        "clean softbox light look"
+      ],
+      "settings": {
+        "exposure": 0.24,
+        "contrast": 0.9,
+        "saturation": 1.94,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "urban_blue_hour",
+      "name": "Urban blue hour",
+      "family": "variant",
+      "aliases": [
+        "urban blue hour",
+        "city twilight",
+        "blue hour cityscape"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 0.92,
+        "temperature": -0.18,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "muted_fashion",
+      "name": "Muted fashion editorial",
+      "family": "variant",
+      "aliases": [
+        "muted fashion editorial",
+        "desaturated fashion magazine",
+        "quiet luxury editorial"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.2,
+        "saturation": 0.78,
+        "temperature": 0.02,
+        "tint": 0.02,
+        "vignette": 0.08,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "retro_music_video",
+      "name": "Retro music video",
+      "family": "variant",
+      "aliases": [
+        "retro music video",
+        "80s music video",
+        "retro neon music aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.2,
+        "saturation": 1.26,
+        "temperature": 0.06,
+        "tint": 0.05,
+        "vignette": 0.12,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.16,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0,
+        "grain": 0.02
+      }
+    },
+    {
+      "id": "washed_noir",
+      "name": "Washed noir",
+      "family": "variant",
+      "aliases": [
+        "washed noir",
+        "faded monochrome cinema",
+        "pale noir"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.3,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.46,
+        "grain": 0.08,
+        "fade": 0.16
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "icy_thriller",
+      "name": "Icy thriller",
+      "family": "variant",
+      "aliases": [
+        "icy thriller",
+        "frozen psychological thriller",
+        "cold eerie film"
+      ],
+      "settings": {
+        "exposure": -0.24,
+        "contrast": 1.28,
+        "saturation": 0.64,
+        "temperature": -0.4,
+        "tint": 0.04,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.2,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "golden_portrait",
+      "name": "Golden portrait",
+      "family": "variant",
+      "aliases": [
+        "golden portrait",
+        "sunlit portrait",
+        "warm cinematic face light"
+      ],
+      "settings": {
+        "exposure": 0.14,
+        "contrast": 0.98,
+        "saturation": 0.98,
+        "temperature": 0.2,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.07,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dusty_vintage",
+      "name": "Dusty vintage photograph",
+      "family": "variant",
+      "aliases": [
+        "dusty vintage photograph",
+        "old dusty film",
+        "aged dusty photo"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.9,
+        "saturation": 0.78,
+        "temperature": 0.2,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.12,
+        "fade": 0.26
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.11,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "moody_underpass",
+      "name": "Moody underpass",
+      "family": "variant",
+      "aliases": [
+        "moody underpass",
+        "dark urban tunnel",
+        "eerie concrete tunnel"
+      ],
+      "settings": {
+        "exposure": -0.36,
+        "contrast": 1.4,
+        "saturation": 0.72,
+        "temperature": -0.2,
+        "tint": 0.04,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "coastal_noir",
+      "name": "Coastal noir",
+      "family": "variant",
+      "aliases": [
+        "coastal noir",
+        "dark seaside film",
+        "moody ocean noir"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.48,
+        "saturation": 0.0,
+        "temperature": -0.12,
+        "tint": 0.0,
+        "vignette": 0.46,
+        "grain": 0.08,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.13,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_vintage_portrait",
+      "name": "Soft vintage portrait",
+      "family": "variant",
+      "aliases": [
+        "soft vintage portrait",
+        "nostalgic portrait photo",
+        "old portrait film"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.9,
+        "saturation": 0.98,
+        "temperature": 0.18,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0,
+        "grain": 0.03
+      }
+    },
+    {
+      "id": "cinematic_winter",
+      "name": "Cinematic winter",
+      "family": "variant",
+      "aliases": [
+        "cinematic winter",
+        "cold winter movie still",
+        "winter film atmosphere"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.18,
+        "saturation": 0.56,
+        "temperature": -0.34,
+        "tint": 0.0,
+        "vignette": 0.14,
+        "grain": 0.03,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.19,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.12
+      }
+    },
+    {
+      "id": "glossy_neon",
+      "name": "Glossy neon",
+      "family": "variant",
+      "aliases": [
+        "glossy neon",
+        "bright neon glow",
+        "polished neon night"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.28,
+        "saturation": 1.5,
+        "temperature": -0.18,
+        "tint": 0.2,
+        "vignette": 0.25,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.28,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dark_fantasy",
+      "name": "Dark fantasy",
+      "family": "variant",
+      "aliases": [
+        "dark fantasy",
+        "grim fairytale",
+        "dark enchanted scene"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.2,
+        "saturation": 0.98,
+        "temperature": 0.06,
+        "tint": 0.08,
+        "vignette": 0.08,
+        "grain": 0.0,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.24,
+        "glow": 0.21,
+        "dust": 0.05,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "sunny_retro",
+      "name": "Sunny retro photo",
+      "family": "variant",
+      "aliases": [
+        "sunny retro photo",
+        "retro summer snapshot",
+        "warm faded summer"
+      ],
+      "settings": {
+        "exposure": 0.14,
+        "contrast": 0.92,
+        "saturation": 0.84,
+        "temperature": 0.36,
+        "tint": 0.02,
+        "vignette": 0.1,
+        "grain": 0.085,
+        "fade": 0.14
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.05,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "desaturated_thriller",
+      "name": "Desaturated thriller",
+      "family": "variant",
+      "aliases": [
+        "desaturated thriller",
+        "muted suspense film",
+        "cold subdued cinema"
+      ],
+      "settings": {
+        "exposure": -0.24,
+        "contrast": 1.34,
+        "saturation": 0.54,
+        "temperature": -0.2,
+        "tint": 0.04,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "neon_rain_portrait",
+      "name": "Neon rain portrait",
+      "family": "variant",
+      "aliases": [
+        "neon rain portrait",
+        "rainy neon portrait",
+        "cyberpunk wet portrait"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.28,
+        "saturation": 1.38,
+        "temperature": -0.26,
+        "tint": 0.2,
+        "vignette": 0.25,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.24,
+        "dust": 0.0,
+        "rain": 0.14,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "forest_sunbeams",
+      "name": "Forest sunbeams",
+      "family": "variant",
+      "aliases": [
+        "forest sunbeams",
+        "light rays through trees",
+        "sunlit woodland haze"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.16,
+        "saturation": 0.92,
+        "temperature": 0.04,
+        "tint": -0.02,
+        "vignette": 0.12,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.08,
+        "dust": 0.07,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "muted_landscape",
+      "name": "Muted landscape",
+      "family": "variant",
+      "aliases": [
+        "muted landscape",
+        "subdued nature colors",
+        "soft cinematic landscape"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.08,
+        "saturation": 0.92,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.07,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "grainy_night",
+      "name": "Grainy night film",
+      "family": "variant",
+      "aliases": [
+        "grainy night film",
+        "analog night photograph",
+        "night street film grain"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.18,
+        "saturation": 0.78,
+        "temperature": -0.18,
+        "tint": 0.02,
+        "vignette": 0.28,
+        "grain": 0.075,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.03,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "overexposed_dream",
+      "name": "Overexposed dream",
+      "family": "variant",
+      "aliases": [
+        "overexposed dream",
+        "washed dreamlike photo",
+        "bright ethereal haze"
+      ],
+      "settings": {
+        "exposure": 0.32,
+        "contrast": 0.72,
+        "saturation": 0.9,
+        "temperature": 0.1,
+        "tint": 0.06,
+        "vignette": 0.1,
+        "grain": 0.01,
+        "fade": 0.13
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.32,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "cold_rain_street",
+      "name": "Cold rainy street",
+      "family": "variant",
+      "aliases": [
+        "cold rainy street",
+        "blue rain street photography",
+        "wet grey city"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.16,
+        "saturation": 0.84,
+        "temperature": -0.2,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.12,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dark_amber",
+      "name": "Dark amber cinema",
+      "family": "variant",
+      "aliases": [
+        "dark amber cinema",
+        "warm shadowy thriller",
+        "amber low key scene"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.34,
+        "saturation": 1.74,
+        "temperature": 0.12,
+        "tint": 0.0,
+        "vignette": 0.28,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "muted_desert",
+      "name": "Muted desert cinema",
+      "family": "variant",
+      "aliases": [
+        "muted desert cinema",
+        "bleached desert landscape",
+        "dusty low saturation desert"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.1,
+        "saturation": 0.66,
+        "temperature": 0.34,
+        "tint": 0.03,
+        "vignette": 0.08,
+        "grain": 0.025,
+        "fade": 0.09
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.04,
+        "dust": 0.18,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "high_key_fashion",
+      "name": "High-key fashion",
+      "family": "variant",
+      "aliases": [
+        "high-key fashion",
+        "airy fashion campaign",
+        "bright luxury editorial"
+      ],
+      "settings": {
+        "exposure": 0.3,
+        "contrast": 0.96,
+        "saturation": 0.96,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "dark_architecture",
+      "name": "Dark architecture cinema",
+      "family": "variant",
+      "aliases": [
+        "dark architecture cinema",
+        "moody building photo",
+        "dramatic urban structure"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.32,
+        "saturation": 0.88,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.15,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "soft_beach_film",
+      "name": "Soft beach film",
+      "family": "variant",
+      "aliases": [
+        "soft beach film",
+        "faded coastal memory",
+        "dreamy beach photography"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.96,
+        "saturation": 1.12,
+        "temperature": 0.12,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.1,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "eerie_blue",
+      "name": "Eerie blue atmosphere",
+      "family": "variant",
+      "aliases": [
+        "eerie blue atmosphere",
+        "uncanny blue mood",
+        "cold supernatural atmosphere"
+      ],
+      "settings": {
+        "exposure": -0.2,
+        "contrast": 1.2,
+        "saturation": 0.7,
+        "temperature": -0.26,
+        "tint": 0.01,
+        "vignette": 0.32,
+        "grain": 0.035,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.2,
+        "glow": 0.01,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
+    {
+      "id": "batman_gotham_live_action",
+      "name": "Batman — Gotham live-action cinema",
+      "family": "reference_batman",
+      "aliases": [
+        "the batman",
+        "the batman 2022",
+        "the batman movie",
+        "batman live action",
+        "batman movie",
+        "dark knight trilogy",
+        "the dark knight",
+        "batman begins",
+        "the dark knight rises",
+        "gotham city batman",
+        "gotham noir",
+        "batman detective movie"
+      ],
+      "settings": {
+        "exposure": -0.3,
+        "contrast": 1.42,
+        "saturation": 0.62,
+        "temperature": -0.28,
+        "tint": -0.02,
+        "vignette": 0.48,
+        "grain": 0.055,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.2,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.14,
+        "snow": 0.0
+      },
+      "description": "Live-action Gotham mood: cold blue-grey shadows, deep blacks, restrained color, heavy contrast, rain and urban haze.",
+      "tags": [
+        "batman",
+        "gotham",
+        "detective",
+        "noir",
+        "rain",
+        "live-action"
+      ]
+    },
+    {
+      "id": "batman_animated_series",
+      "name": "Batman: The Animated Series",
+      "family": "reference_batman",
+      "aliases": [
+        "batman the animated series",
+        "batman animated series",
+        "batman tas",
+        "batman cartoon",
+        "animated batman",
+        "gotham animated series",
+        "dark deco animation",
+        "batman 1990s cartoon"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.34,
+        "saturation": 0.78,
+        "temperature": -0.16,
+        "tint": 0.05,
+        "vignette": 0.2,
+        "grain": 0.015,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.12,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      },
+      "description": "Animated Gotham inspiration: bold graphic contrast, dark deco atmosphere, cool shadows and selective warm highlights.",
+      "tags": [
+        "batman",
+        "animation",
+        "gotham",
+        "art-deco",
+        "comic"
+      ]
+    },
+    {
+      "id": "batman_comic_book",
+      "name": "Batman comic-book look",
+      "family": "reference_batman",
+      "aliases": [
+        "batman comic",
+        "batman comic book",
+        "dc comics batman",
+        "comic book batman",
+        "dark comic book",
+        "gotham comic",
+        "batman graphic novel"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.48,
+        "saturation": 0.92,
+        "temperature": -0.08,
+        "tint": 0.02,
+        "vignette": 0.16,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.025,
+        "dust": 0.015,
+        "rain": 0.02,
+        "snow": 0.0
+      },
+      "description": "Graphic-novel inspired grade with bold contrast and slightly heightened color; does not redraw the photograph as a comic.",
+      "tags": [
+        "batman",
+        "comic",
+        "graphic-novel",
+        "dc"
+      ]
+    },
+    {
+      "id": "gotham_city_noir",
+      "name": "Gotham City noir",
+      "family": "reference_gotham",
+      "aliases": [
+        "gotham city",
+        "gotham at night",
+        "gotham streets",
+        "gotham skyline",
+        "gotham crime drama",
+        "dark city detective",
+        "rainy gothic city"
+      ],
+      "settings": {
+        "exposure": -0.26,
+        "contrast": 1.38,
+        "saturation": 0.68,
+        "temperature": -0.22,
+        "tint": 0.02,
+        "vignette": 0.42,
+        "grain": 0.045,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.025,
+        "dust": 0.0,
+        "rain": 0.12,
+        "snow": 0.0
+      },
+      "description": "Rain-soaked gothic city atmosphere with cold shadows, haze and subdued color.",
+      "tags": [
+        "gotham",
+        "city",
+        "noir",
+        "gothic",
+        "urban"
+      ]
+    },
+    {
+      "id": "spider_verse",
+      "name": "Spider-Verse inspired color",
+      "family": "reference_spider_verse",
+      "aliases": [
+        "spider verse",
+        "into the spider verse",
+        "across the spider verse",
+        "spider-man animated movie",
+        "spiderman animated movie",
+        "comic multiverse"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.28,
+        "saturation": 1.28,
+        "temperature": 0.02,
+        "tint": 0.08,
+        "vignette": 0.1,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.09,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Vivid comic-inspired color energy; this grades colors but does not create halftones or redraw objects.",
+      "tags": [
+        "animation",
+        "comic",
+        "vivid",
+        "spider-verse"
+      ]
+    },
+    {
+      "id": "sin_city",
+      "name": "Sin City noir",
+      "family": "reference_sin_city",
+      "aliases": [
+        "sin city",
+        "sin city movie",
+        "neo noir comic",
+        "black white crime comic"
+      ],
+      "settings": {
+        "exposure": -0.16,
+        "contrast": 1.62,
+        "saturation": 0.08,
+        "temperature": -0.04,
+        "tint": 0.0,
+        "vignette": 0.44,
+        "grain": 0.065,
+        "fade": 0.01
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      },
+      "description": "High-contrast near-monochrome crime-film mood with deep blacks and gritty grain.",
+      "tags": [
+        "noir",
+        "monochrome",
+        "crime",
+        "comic"
+      ]
+    },
+    {
+      "id": "blade_runner",
+      "name": "Blade Runner neon noir",
+      "family": "reference_blade_runner",
+      "aliases": [
+        "blade runner",
+        "blade runner 2049",
+        "replicant city",
+        "futuristic noir city"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.3,
+        "saturation": 1.1,
+        "temperature": -0.18,
+        "tint": 0.16,
+        "vignette": 0.3,
+        "grain": 0.025,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.14,
+        "glow": 0.17,
+        "dust": 0.0,
+        "rain": 0.1,
+        "snow": 0.0
+      },
+      "description": "Futuristic neon noir: cool shadows, saturated colored light, rain and atmospheric haze.",
+      "tags": [
+        "sci-fi",
+        "noir",
+        "neon",
+        "rain",
+        "future"
+      ]
+    },
+    {
+      "id": "matrix_green",
+      "name": "The Matrix green-tinted cinema",
+      "family": "reference_matrix",
+      "aliases": [
+        "the matrix",
+        "matrix movie",
+        "matrix green tint",
+        "matrix aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.32,
+        "saturation": 0.82,
+        "temperature": -0.12,
+        "tint": -0.12,
+        "vignette": 0.24,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Cool green-biased sci-fi grading with strong contrast.",
+      "tags": [
+        "sci-fi",
+        "green",
+        "cyberpunk"
+      ]
+    },
+    {
+      "id": "stranger_things",
+      "name": "Stranger Things retro supernatural",
+      "family": "reference_stranger_things",
+      "aliases": [
+        "stranger things",
+        "upside down",
+        "80s supernatural series",
+        "retro supernatural horror"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.26,
+        "saturation": 0.88,
+        "temperature": -0.12,
+        "tint": 0.04,
+        "vignette": 0.26,
+        "grain": 0.055,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.14,
+        "glow": 0.08,
+        "dust": 0.025,
+        "rain": 0.02,
+        "snow": 0.0
+      },
+      "description": "Retro supernatural suspense with cool shadows, film grain and eerie atmospheric haze.",
+      "tags": [
+        "retro",
+        "supernatural",
+        "horror",
+        "80s"
+      ]
+    },
+    {
+      "id": "dune_desert_epic",
+      "name": "Dune desert epic",
+      "family": "reference_dune",
+      "aliases": [
+        "dune",
+        "dune part two",
+        "dune 2021",
+        "arrakis",
+        "spice desert",
+        "dune movie"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.24,
+        "saturation": 0.82,
+        "temperature": 0.24,
+        "tint": 0.03,
+        "vignette": 0.16,
+        "grain": 0.025,
+        "fade": 0.035
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.07,
+        "dust": 0.12,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Monumental desert-film palette with warm sand, muted colors and dusty atmosphere.",
+      "tags": [
+        "desert",
+        "epic",
+        "sci-fi",
+        "dust"
+      ]
+    },
+    {
+      "id": "mad_max_wasteland",
+      "name": "Mad Max wasteland",
+      "family": "reference_mad_max",
+      "aliases": [
+        "mad max",
+        "furiosa",
+        "fury road",
+        "post apocalyptic desert chase",
+        "wasteland movie"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.42,
+        "saturation": 0.92,
+        "temperature": 0.28,
+        "tint": 0.0,
+        "vignette": 0.22,
+        "grain": 0.055,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.18,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Harsh dusty wasteland look with warm highlights, hard contrast and gritty texture.",
+      "tags": [
+        "wasteland",
+        "desert",
+        "action",
+        "dust"
+      ]
+    },
+    {
+      "id": "john_wick_neon_action",
+      "name": "Modern neon action cinema",
+      "family": "reference_john_wick",
+      "aliases": [
+        "john wick",
+        "john wick movie",
+        "neon action thriller",
+        "modern assassin film look"
+      ],
+      "settings": {
+        "exposure": -0.1,
+        "contrast": 1.38,
+        "saturation": 1.04,
+        "temperature": -0.12,
+        "tint": 0.08,
+        "vignette": 0.24,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      },
+      "description": "Sleek modern action grading with cool shadows and controlled neon-like glow.",
+      "tags": [
+        "action",
+        "neon",
+        "night",
+        "cinema"
+      ]
+    },
+    {
+      "id": "wes_anderson_symmetry",
+      "name": "Pastel storybook cinema",
+      "family": "reference_wes_anderson",
+      "aliases": [
+        "wes anderson",
+        "grand budapest hotel",
+        "pastel symmetrical movie",
+        "storybook pastel cinema",
+        "quirky symmetrical film"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.94,
+        "saturation": 1.08,
+        "temperature": 0.1,
+        "tint": 0.06,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Pastel, carefully balanced storybook color grading; symmetry itself cannot be added by this editor.",
+      "tags": [
+        "pastel",
+        "storybook",
+        "quirky",
+        "cinema"
+      ]
+    },
+    {
+      "id": "studio_ghibli_nature",
+      "name": "Soft animated fantasy palette",
+      "family": "reference_ghibli",
+      "aliases": [
+        "studio ghibli",
+        "ghibli",
+        "ghibli movie",
+        "my neighbor totoro",
+        "spirited away",
+        "howls moving castle",
+        "animated nature fantasy"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 0.92,
+        "saturation": 1.08,
+        "temperature": 0.08,
+        "tint": 0.05,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.1,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Soft, luminous, nature-friendly fantasy colors; does not convert a photo into hand-drawn animation.",
+      "tags": [
+        "animation",
+        "fantasy",
+        "nature",
+        "soft"
+      ]
+    },
+    {
+      "id": "arcane_painterly",
+      "name": "Arcane-inspired dramatic color",
+      "family": "reference_arcane",
+      "aliases": [
+        "arcane",
+        "league of legends series",
+        "piltover",
+        "zaun",
+        "painterly animated series"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.28,
+        "saturation": 1.12,
+        "temperature": -0.06,
+        "tint": 0.1,
+        "vignette": 0.18,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.11,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Painterly animation-inspired palette with rich color separation and dramatic atmosphere.",
+      "tags": [
+        "animation",
+        "fantasy",
+        "painterly",
+        "game"
+      ]
+    },
+    {
+      "id": "star_wars_space_opera",
+      "name": "Space-opera cinematic",
+      "family": "reference_star_wars",
+      "aliases": [
+        "star wars",
+        "the mandalorian",
+        "galactic empire",
+        "jedi temple",
+        "space opera movie"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.2,
+        "saturation": 1.08,
+        "temperature": 0.02,
+        "tint": 0.04,
+        "vignette": 0.12,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.03,
+        "glow": 0.12,
+        "dust": 0.025,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Space-opera color grading with cinematic contrast and luminous highlights.",
+      "tags": [
+        "sci-fi",
+        "space-opera",
+        "epic"
+      ]
+    },
+    {
+      "id": "lord_of_the_rings_epic",
+      "name": "High-fantasy epic",
+      "family": "reference_lotr",
+      "aliases": [
+        "lord of the rings",
+        "the hobbit",
+        "middle earth",
+        "middle-earth",
+        "shire landscape",
+        "tolkien fantasy",
+        "high fantasy movie"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.12,
+        "saturation": 0.96,
+        "temperature": 0.08,
+        "tint": 0.03,
+        "vignette": 0.08,
+        "grain": 0.01,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.06,
+        "glow": 0.06,
+        "dust": 0.02,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Naturalistic high-fantasy grade with earthy greens, warm highlights and misty depth.",
+      "tags": [
+        "fantasy",
+        "epic",
+        "nature"
+      ]
+    },
+    {
+      "id": "harry_potter_magic",
+      "name": "Magical gothic school",
+      "family": "reference_harry_potter",
+      "aliases": [
+        "harry potter",
+        "hogwarts",
+        "wizarding world",
+        "magical castle movie",
+        "wizard school"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 0.9,
+        "temperature": -0.04,
+        "tint": 0.04,
+        "vignette": 0.14,
+        "grain": 0.02,
+        "fade": 0.025
+      },
+      "effects": {
+        "fog": 0.07,
+        "glow": 0.1,
+        "dust": 0.025,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Moody magical-castle palette with cool shadows and subtle luminous warmth.",
+      "tags": [
+        "fantasy",
+        "magic",
+        "gothic"
+      ]
+    },
+    {
+      "id": "jurassic_park_adventure",
+      "name": "Adventure blockbuster",
+      "family": "reference_jurassic_park",
+      "aliases": [
+        "jurassic park",
+        "jurassic world",
+        "prehistoric adventure movie",
+        "dinosaur movie look"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.18,
+        "saturation": 1.02,
+        "temperature": 0.06,
+        "tint": 0.0,
+        "vignette": 0.1,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.04,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Classic adventure-film grade with natural greens, deep jungle shadows and atmospheric depth.",
+      "tags": [
+        "adventure",
+        "nature",
+        "blockbuster"
+      ]
+    },
+    {
+      "id": "silent_hill_psychological",
+      "name": "Foggy psychological horror game",
+      "family": "reference_silent_hill",
+      "aliases": [
+        "silent hill",
+        "silent hill game",
+        "fog horror game",
+        "psychological horror game aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.34,
+        "contrast": 1.2,
+        "saturation": 0.42,
+        "temperature": -0.18,
+        "tint": 0.02,
+        "vignette": 0.44,
+        "grain": 0.075,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.28,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.03,
+        "snow": 0.0
+      },
+      "description": "Dense pale fog, washed-out color, cold shadows and oppressive survival-horror atmosphere.",
+      "tags": [
+        "game",
+        "horror",
+        "fog",
+        "desaturated"
+      ]
+    },
+    {
+      "id": "last_of_us_post_apocalyptic",
+      "name": "Overgrown post-apocalyptic realism",
+      "family": "reference_last_of_us",
+      "aliases": [
+        "the last of us",
+        "last of us",
+        "post apocalyptic overgrown city",
+        "fungal apocalypse game"
+      ],
+      "settings": {
+        "exposure": -0.1,
+        "contrast": 1.18,
+        "saturation": 0.72,
+        "temperature": 0.04,
+        "tint": 0.03,
+        "vignette": 0.14,
+        "grain": 0.04,
+        "fade": 0.07
+      },
+      "effects": {
+        "fog": 0.07,
+        "glow": 0.0,
+        "dust": 0.06,
+        "rain": 0.02,
+        "snow": 0.0
+      },
+      "description": "Muted survival-drama grade with earthy greens, faded color and realistic atmospheric wear.",
+      "tags": [
+        "game",
+        "post-apocalyptic",
+        "nature",
+        "realistic"
+      ]
+    },
+    {
+      "id": "red_dead_western",
+      "name": "Dusty western cinema",
+      "family": "reference_red_dead",
+      "aliases": [
+        "red dead redemption",
+        "red dead redemption 2",
+        "western game",
+        "wild west movie",
+        "spaghetti western",
+        "old west cinematic"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.16,
+        "saturation": 0.82,
+        "temperature": 0.2,
+        "tint": 0.02,
+        "vignette": 0.12,
+        "grain": 0.045,
+        "fade": 0.07
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.015,
+        "dust": 0.1,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Warm dusty western grade with faded film texture and earthy highlights.",
+      "tags": [
+        "western",
+        "game",
+        "dust",
+        "warm"
+      ]
+    },
+    {
+      "id": "minecraft_bright",
+      "name": "Block-game bright palette",
+      "family": "reference_minecraft",
+      "aliases": [
+        "minecraft",
+        "minecraft world",
+        "blocky game aesthetic",
+        "voxel game"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.06,
+        "saturation": 1.14,
+        "temperature": 0.04,
+        "tint": 0.0,
+        "vignette": 0.0,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Bright, clear game-like colors; the editor cannot transform objects into voxel geometry.",
+      "tags": [
+        "game",
+        "bright",
+        "saturated"
+      ]
+    },
+    {
+      "id": "resident_evil_survival",
+      "name": "Survival-horror cinema",
+      "family": "reference_resident_evil",
+      "aliases": [
+        "resident evil",
+        "resident evil game",
+        "survival horror game",
+        "abandoned horror facility"
+      ],
+      "settings": {
+        "exposure": -0.28,
+        "contrast": 1.36,
+        "saturation": 0.62,
+        "temperature": -0.12,
+        "tint": 0.0,
+        "vignette": 0.36,
+        "grain": 0.055,
+        "fade": 0.035
+      },
+      "effects": {
+        "fog": 0.1,
+        "glow": 0.01,
+        "dust": 0.025,
+        "rain": 0.02,
+        "snow": 0.0
+      },
+      "description": "Tense survival-horror grading with cool shadows, muted color and gritty texture.",
+      "tags": [
+        "game",
+        "horror",
+        "survival",
+        "gritty"
+      ]
+    },
+    {
+      "id": "anime_cinematic",
+      "name": "Anime-inspired cinematic color",
+      "family": "reference_anime",
+      "aliases": [
+        "anime",
+        "anime movie",
+        "anime aesthetic",
+        "japanese animation",
+        "anime cinematic"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 1.08,
+        "saturation": 1.14,
+        "temperature": 0.04,
+        "tint": 0.04,
+        "vignette": 0.04,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.08,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Bright stylized animation-inspired grading; does not redraw the photograph in anime style.",
+      "tags": [
+        "anime",
+        "animation",
+        "colorful"
+      ]
+    },
+    {
+      "id": "pixar_family",
+      "name": "Warm family-animation palette",
+      "family": "reference_family_animation",
+      "aliases": [
+        "pixar",
+        "disney pixar",
+        "family animation movie",
+        "3d animated movie look"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.98,
+        "saturation": 1.1,
+        "temperature": 0.1,
+        "tint": 0.03,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.07,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Warm, clean, family-animation-inspired color treatment; no 3D character conversion.",
+      "tags": [
+        "animation",
+        "warm",
+        "family"
+      ]
+    },
+    {
+      "id": "western_spaghetti",
+      "name": "Classic spaghetti western",
+      "family": "reference_spaghetti_western",
+      "aliases": [
+        "spaghetti western",
+        "sergio leone",
+        "classic western cinema",
+        "western film"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.28,
+        "saturation": 0.76,
+        "temperature": 0.18,
+        "tint": 0.01,
+        "vignette": 0.2,
+        "grain": 0.07,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.1,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Weathered western-film look with dusty warmth, pronounced contrast and analog grain.",
+      "tags": [
+        "western",
+        "vintage",
+        "dust"
+      ]
+    },
+    {
+      "id": "bond_spy_thriller",
+      "name": "Spy-thriller polish",
+      "family": "reference_spy_thriller",
+      "aliases": [
+        "james bond",
+        "007 movie",
+        "spy thriller",
+        "espionage movie",
+        "secret agent film"
+      ],
+      "settings": {
+        "exposure": 0.0,
+        "contrast": 1.18,
+        "saturation": 0.96,
+        "temperature": 0.01,
+        "tint": 0.0,
+        "vignette": 0.08,
+        "grain": 0.01,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.025,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Clean, controlled spy-film grading with polished contrast and restrained saturation.",
+      "tags": [
+        "spy",
+        "thriller",
+        "polished"
+      ]
+    },
+    {
+      "id": "vampire_gothic",
+      "name": "Gothic vampire cinema",
+      "family": "reference_vampire_gothic",
+      "aliases": [
+        "gothic vampire movie",
+        "dracula",
+        "vampire gothic",
+        "dark castle horror"
+      ],
+      "settings": {
+        "exposure": -0.24,
+        "contrast": 1.34,
+        "saturation": 0.7,
+        "temperature": -0.12,
+        "tint": 0.06,
+        "vignette": 0.4,
+        "grain": 0.045,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.18,
+        "glow": 0.05,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Gothic romantic-horror atmosphere with cool shadows, deep contrast and mist.",
+      "tags": [
+        "gothic",
+        "vampire",
+        "horror",
+        "fog"
+      ]
+    },
+    {
+      "id": "underwater_cinematic",
+      "name": "Underwater blue cinema",
+      "family": "reference_underwater",
+      "aliases": [
+        "underwater movie",
+        "deep ocean cinematic",
+        "ocean depth",
+        "under the sea cinematic"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.14,
+        "saturation": 0.9,
+        "temperature": -0.32,
+        "tint": 0.02,
+        "vignette": 0.18,
+        "grain": 0.01,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.08,
+        "glow": 0.04,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Cool blue underwater-style grading with softened distance and subtle light bloom.",
+      "tags": [
+        "ocean",
+        "blue",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "arctic_survival",
+      "name": "Cold arctic survival",
+      "family": "reference_arctic",
+      "aliases": [
+        "arctic survival movie",
+        "polar expedition",
+        "frozen wasteland",
+        "antarctic cinematic"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 0.72,
+        "temperature": -0.34,
+        "tint": 0.0,
+        "vignette": 0.12,
+        "grain": 0.02,
+        "fade": 0.035
+      },
+      "effects": {
+        "fog": 0.1,
+        "glow": 0.015,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.12
+      },
+      "description": "Cold desaturated winter grade with pale atmosphere and subtle snowfall.",
+      "tags": [
+        "winter",
+        "cold",
+        "survival",
+        "snow"
+      ]
+    },
+    {
+      "id": "concert_stage",
+      "name": "Live concert lighting",
+      "family": "reference_concert",
+      "aliases": [
+        "concert photo",
+        "live concert",
+        "music festival stage",
+        "stage lights",
+        "gig photography"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.22,
+        "saturation": 1.18,
+        "temperature": 0.02,
+        "tint": 0.06,
+        "vignette": 0.14,
+        "grain": 0.015,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.14,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Punchy stage-light color and controlled bloom for concert photography.",
+      "tags": [
+        "music",
+        "concert",
+        "lights"
+      ]
+    },
+    {
+      "id": "sports_high_energy",
+      "name": "High-energy sports photography",
+      "family": "reference_sports",
+      "aliases": [
+        "sports photography",
+        "sports poster",
+        "football match photo",
+        "basketball game photo",
+        "motorsport photo",
+        "racing photography"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.26,
+        "saturation": 1.1,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.06,
+        "grain": 0.005,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.015,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Crisp high-energy sports grade with clear contrast and lively color.",
+      "tags": [
+        "sports",
+        "action",
+        "crisp"
+      ]
+    },
+    {
+      "id": "fashion_flash_editorial",
+      "name": "Direct-flash editorial",
+      "family": "reference_flash_editorial",
+      "aliases": [
+        "direct flash photography",
+        "paparazzi flash",
+        "nightlife flash photo",
+        "y2k flash photography"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 1.22,
+        "saturation": 1.02,
+        "temperature": 0.03,
+        "tint": 0.0,
+        "vignette": 0.03,
+        "grain": 0.025,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Punchy direct-flash editorial contrast with a candid nightlife feel.",
+      "tags": [
+        "fashion",
+        "flash",
+        "nightlife"
+      ]
+    },
+    {
+      "id": "dream_pop_pastel",
+      "name": "Dream-pop pastel",
+      "family": "reference_dream_pop",
+      "aliases": [
+        "dream pop",
+        "pastel music video",
+        "soft pastel aesthetic",
+        "hazy pastel dream"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.88,
+        "saturation": 1.06,
+        "temperature": 0.08,
+        "tint": 0.07,
+        "vignette": 0.06,
+        "grain": 0.015,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.16,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Hazy pastel music-video look with soft contrast and gentle luminous bloom.",
+      "tags": [
+        "pastel",
+        "dreamy",
+        "music-video"
+      ]
+    },
+    {
+      "id": "found_footage",
+      "name": "Found-footage realism",
+      "family": "reference_found_footage",
+      "aliases": [
+        "found footage horror",
+        "handheld documentary horror",
+        "analog horror footage",
+        "camcorder horror",
+        "old camcorder video"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.14,
+        "saturation": 0.74,
+        "temperature": -0.05,
+        "tint": 0.0,
+        "vignette": 0.1,
+        "grain": 0.12,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.0,
+        "dust": 0.025,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Rough, low-saturation analog-footage grade with strong grain; no actual scanlines are synthesized.",
+      "tags": [
+        "horror",
+        "analog",
+        "grain",
+        "found-footage"
+      ]
+    },
+    {
+      "id": "analog_horror",
+      "name": "Analog-horror atmosphere",
+      "family": "reference_analog_horror",
+      "aliases": [
+        "analog horror",
+        "vhs horror",
+        "liminal horror video",
+        "uncanny broadcast"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.22,
+        "saturation": 0.62,
+        "temperature": -0.06,
+        "tint": 0.02,
+        "vignette": 0.26,
+        "grain": 0.12,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.06,
+        "glow": 0.0,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Uneasy low-saturation analog-horror grade with pronounced grain and faded blacks.",
+      "tags": [
+        "horror",
+        "analog",
+        "vhs",
+        "liminal"
+      ]
+    },
+    {
+      "id": "liminal_spaces",
+      "name": "Liminal-space unease",
+      "family": "reference_liminal",
+      "aliases": [
+        "liminal spaces",
+        "liminal space",
+        "backrooms aesthetic",
+        "empty eerie hallway",
+        "uncanny empty building"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.06,
+        "saturation": 0.62,
+        "temperature": -0.1,
+        "tint": 0.02,
+        "vignette": 0.12,
+        "grain": 0.035,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.02,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Muted, quiet, slightly uncanny color treatment for empty transitional spaces.",
+      "tags": [
+        "liminal",
+        "uncanny",
+        "minimal"
+      ]
+    },
+    {
+      "id": "cottagecore",
+      "name": "Soft cottagecore countryside",
+      "family": "reference_cottagecore",
+      "aliases": [
+        "cottagecore",
+        "cottage core",
+        "rustic countryside aesthetic",
+        "cozy rural life"
+      ],
+      "settings": {
+        "exposure": 0.1,
+        "contrast": 0.92,
+        "saturation": 0.96,
+        "temperature": 0.16,
+        "tint": 0.04,
+        "vignette": 0.02,
+        "grain": 0.01,
+        "fade": 0.05
+      },
+      "effects": {
+        "fog": 0.025,
+        "glow": 0.06,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Gentle natural warmth, softened contrast and a calm pastoral atmosphere.",
+      "tags": [
+        "countryside",
+        "cozy",
+        "nature",
+        "soft"
+      ]
+    },
+    {
+      "id": "dark_academia",
+      "name": "Dark academia",
+      "family": "reference_dark_academia",
+      "aliases": [
+        "dark academia",
+        "dark academia aesthetic",
+        "old library aesthetic",
+        "moody academia"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.16,
+        "saturation": 0.7,
+        "temperature": 0.1,
+        "tint": 0.02,
+        "vignette": 0.22,
+        "grain": 0.035,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.025,
+        "glow": 0.025,
+        "dust": 0.04,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Muted scholarly palette with warm browns, deep shadows and subtle vintage texture.",
+      "tags": [
+        "academia",
+        "vintage",
+        "library",
+        "moody"
+      ]
+    },
+    {
+      "id": "light_academia",
+      "name": "Light academia",
+      "family": "reference_light_academia",
+      "aliases": [
+        "light academia",
+        "light academia aesthetic",
+        "sunlit old library"
+      ],
+      "settings": {
+        "exposure": 0.12,
+        "contrast": 0.92,
+        "saturation": 0.86,
+        "temperature": 0.12,
+        "tint": 0.03,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Bright, soft, warm, bookish editorial palette.",
+      "tags": [
+        "academia",
+        "soft",
+        "warm"
+      ]
+    },
+    {
+      "id": "y2k_digital",
+      "name": "Y2K digital pop",
+      "family": "reference_y2k",
+      "aliases": [
+        "y2k",
+        "y2k aesthetic",
+        "early 2000s digital camera",
+        "2000s pop aesthetic",
+        "cyber y2k",
+        "chrome futurism"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 1.08,
+        "saturation": 1.16,
+        "temperature": 0.02,
+        "tint": 0.05,
+        "vignette": 0.02,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.08,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Early-digital pop color with bright saturation and a subtle synthetic glow.",
+      "tags": [
+        "y2k",
+        "digital",
+        "pop"
+      ]
+    },
+    {
+      "id": "vaporwave",
+      "name": "Vaporwave neon pastel",
+      "family": "reference_vaporwave",
+      "aliases": [
+        "vaporwave",
+        "vaporwave aesthetic",
+        "pink purple retro future",
+        "retro mall aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.08,
+        "saturation": 1.24,
+        "temperature": -0.04,
+        "tint": 0.16,
+        "vignette": 0.12,
+        "grain": 0.015,
+        "fade": 0.01
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.15,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Magenta-purple retro-futurist color grade with luminous highlights.",
+      "tags": [
+        "vaporwave",
+        "retro",
+        "neon",
+        "purple"
+      ]
+    },
+    {
+      "id": "film_grain_1970s",
+      "name": "1970s gritty cinema",
+      "family": "reference_1970s_grit",
+      "aliases": [
+        "70s gritty cinema",
+        "1970s crime movie",
+        "seventies thriller",
+        "gritty 70s film"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.18,
+        "saturation": 0.78,
+        "temperature": 0.12,
+        "tint": 0.0,
+        "vignette": 0.18,
+        "grain": 0.1,
+        "fade": 0.08
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.03,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Gritty older-film aesthetic with grain, subdued colors and faded contrast.",
+      "tags": [
+        "vintage",
+        "crime",
+        "grain"
+      ]
+    },
+    {
+      "id": "romantic_sunset_film",
+      "name": "Romantic sunset cinema",
+      "family": "reference_romantic_sunset",
+      "aliases": [
+        "romantic sunset movie",
+        "golden hour romance",
+        "warm love story cinema",
+        "sunset romance film"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 0.96,
+        "saturation": 1.02,
+        "temperature": 0.28,
+        "tint": 0.03,
+        "vignette": 0.06,
+        "grain": 0.01,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Warm golden-hour romantic grade with gentle bloom and soft contrast.",
+      "tags": [
+        "romance",
+        "sunset",
+        "warm"
+      ]
+    },
+    {
+      "id": "crime_documentary",
+      "name": "True-crime documentary",
+      "family": "reference_true_crime",
+      "aliases": [
+        "true crime documentary",
+        "crime documentary",
+        "investigation documentary",
+        "forensic documentary look"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.2,
+        "saturation": 0.72,
+        "temperature": -0.06,
+        "tint": 0.0,
+        "vignette": 0.18,
+        "grain": 0.03,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Restrained investigative-documentary palette with muted colors and firm contrast.",
+      "tags": [
+        "documentary",
+        "crime",
+        "realistic"
+      ]
+    },
+    {
+      "id": "retro_arcade",
+      "name": "Retro arcade game",
+      "family": "reference_retro_arcade",
+      "aliases": [
+        "retro arcade",
+        "arcade game aesthetic",
+        "8 bit game",
+        "16 bit game",
+        "pixel game colors",
+        "retro gaming"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.16,
+        "saturation": 1.22,
+        "temperature": 0.02,
+        "tint": 0.04,
+        "vignette": 0.02,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.06,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Bold nostalgic arcade color treatment; it does not pixelate or redraw the image.",
+      "tags": [
+        "retro",
+        "game",
+        "bright"
+      ]
+    },
+    {
+      "id": "racing_night",
+      "name": "Night-racing cinematic",
+      "family": "reference_night_racing",
+      "aliases": [
+        "night racing",
+        "street racing movie",
+        "racing game at night",
+        "midnight tuner aesthetic",
+        "car meet at night"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.3,
+        "saturation": 1.14,
+        "temperature": -0.1,
+        "tint": 0.06,
+        "vignette": 0.18,
+        "grain": 0.02,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.025,
+        "glow": 0.1,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      },
+      "description": "Night automotive grade with cool shadows, vivid highlights and subtle light bloom.",
+      "tags": [
+        "cars",
+        "racing",
+        "night",
+        "neon"
+      ]
+    },
+    {
+      "id": "nature_documentary",
+      "name": "Nature-documentary realism",
+      "family": "reference_nature_doc",
+      "aliases": [
+        "nature documentary",
+        "wildlife documentary",
+        "planet earth documentary",
+        "cinematic landscape documentary"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.08,
+        "saturation": 1.02,
+        "temperature": 0.02,
+        "tint": 0.0,
+        "vignette": 0.025,
+        "grain": 0.005,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.02,
+        "glow": 0.025,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Natural, crisp landscape color with restrained cinematic contrast.",
+      "tags": [
+        "nature",
+        "documentary",
+        "realistic"
+      ]
+    },
+    {
+      "id": "urban_street_photo",
+      "name": "Urban street photography",
+      "family": "reference_street_photo",
+      "aliases": [
+        "street photography",
+        "urban street photo",
+        "city candid photography",
+        "editorial street photography"
+      ],
+      "settings": {
+        "exposure": 0.02,
+        "contrast": 1.12,
+        "saturation": 0.9,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.04,
+        "grain": 0.025,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Balanced documentary street-photo grade with modest contrast and subtle texture.",
+      "tags": [
+        "street",
+        "urban",
+        "documentary"
+      ]
+    },
+    {
+      "id": "blue_hour_cinema",
+      "name": "Blue-hour cinematic",
+      "family": "reference_blue_hour",
+      "aliases": [
+        "blue hour",
+        "blue hour photography",
+        "twilight city cinema",
+        "after sunset blue light"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.16,
+        "saturation": 0.9,
+        "temperature": -0.28,
+        "tint": 0.02,
+        "vignette": 0.1,
+        "grain": 0.01,
+        "fade": 0.02
+      },
+      "effects": {
+        "fog": 0.025,
+        "glow": 0.04,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Cool twilight blue grade for cityscapes and portraits.",
+      "tags": [
+        "twilight",
+        "blue",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "golden_hour_cinema",
+      "name": "Golden-hour cinematic",
+      "family": "reference_golden_hour",
+      "aliases": [
+        "golden hour",
+        "golden hour cinematic",
+        "warm sunset light",
+        "late afternoon film"
+      ],
+      "settings": {
+        "exposure": 0.08,
+        "contrast": 1.04,
+        "saturation": 1.02,
+        "temperature": 0.26,
+        "tint": 0.03,
+        "vignette": 0.03,
+        "grain": 0.0,
+        "fade": 0.015
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.08,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Warm natural golden-hour color and soft highlight bloom.",
+      "tags": [
+        "sunset",
+        "warm",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "monochrome_street_noir",
+      "name": "Monochrome street noir",
+      "family": "reference_street_noir",
+      "aliases": [
+        "black and white street photography",
+        "monochrome street noir",
+        "noir city photography"
+      ],
+      "settings": {
+        "exposure": -0.06,
+        "contrast": 1.42,
+        "saturation": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "vignette": 0.22,
+        "grain": 0.045,
+        "fade": 0.015
+      },
+      "effects": {
+        "fog": 0.015,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.025,
+        "snow": 0.0
+      },
+      "description": "Monochrome urban noir with deep blacks and fine grain.",
+      "tags": [
+        "black-white",
+        "street",
+        "noir"
+      ]
+    },
+    {
+      "id": "summer_indie_film",
+      "name": "Sun-faded indie film",
+      "family": "reference_indie_film",
+      "aliases": [
+        "indie film aesthetic",
+        "summer indie movie",
+        "nostalgic coming of age film",
+        "sun faded movie",
+        "coming of age cinema"
+      ],
+      "settings": {
+        "exposure": 0.06,
+        "contrast": 0.92,
+        "saturation": 0.88,
+        "temperature": 0.14,
+        "tint": 0.02,
+        "vignette": 0.04,
+        "grain": 0.055,
+        "fade": 0.12
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.025,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Nostalgic sun-faded indie-film treatment with gentle grain and soft contrast.",
+      "tags": [
+        "indie",
+        "nostalgia",
+        "summer",
+        "film"
+      ]
+    },
+    {
+      "id": "thriller_cold_case",
+      "name": "Cold-case detective thriller",
+      "family": "reference_cold_case",
+      "aliases": [
+        "cold case thriller",
+        "detective investigation movie",
+        "police procedural look",
+        "dark detective series",
+        "crime scene cinema"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 1.28,
+        "saturation": 0.68,
+        "temperature": -0.18,
+        "tint": 0.01,
+        "vignette": 0.3,
+        "grain": 0.04,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.0,
+        "dust": 0.0,
+        "rain": 0.04,
+        "snow": 0.0
+      },
+      "description": "Cool investigative thriller grade with subdued colors and deep shadow detail.",
+      "tags": [
+        "detective",
+        "crime",
+        "thriller",
+        "cool"
+      ]
+    },
+    {
+      "id": "giallo_horror",
+      "name": "Stylized Italian horror color",
+      "family": "reference_giallo",
+      "aliases": [
+        "giallo film",
+        "italian horror cinema",
+        "stylized 1970s horror",
+        "neon horror cinema"
+      ],
+      "settings": {
+        "exposure": -0.08,
+        "contrast": 1.32,
+        "saturation": 1.16,
+        "temperature": -0.02,
+        "tint": 0.1,
+        "vignette": 0.24,
+        "grain": 0.055,
+        "fade": 0.01
+      },
+      "effects": {
+        "fog": 0.025,
+        "glow": 0.06,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Stylized vintage horror palette with bold colors, grain and theatrical contrast.",
+      "tags": [
+        "horror",
+        "vintage",
+        "stylized"
+      ]
+    },
+    {
+      "id": "fairytale_winter",
+      "name": "Fairytale winter",
+      "family": "reference_fairytale_winter",
+      "aliases": [
+        "winter fairytale",
+        "snowy fairytale",
+        "frozen fairytale landscape",
+        "enchanted winter"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.0,
+        "saturation": 0.9,
+        "temperature": -0.22,
+        "tint": 0.04,
+        "vignette": 0.04,
+        "grain": 0.0,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.07,
+        "glow": 0.12,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.15
+      },
+      "description": "Soft icy fairytale grading with pale light, gentle glow and falling snow.",
+      "tags": [
+        "winter",
+        "fantasy",
+        "snow",
+        "soft"
+      ]
+    },
+    {
+      "id": "industrial_grunge",
+      "name": "Industrial grunge",
+      "family": "reference_industrial_grunge",
+      "aliases": [
+        "industrial grunge",
+        "abandoned factory aesthetic",
+        "urban decay photography",
+        "rusty industrial film",
+        "gritty warehouse look"
+      ],
+      "settings": {
+        "exposure": -0.12,
+        "contrast": 1.32,
+        "saturation": 0.62,
+        "temperature": -0.08,
+        "tint": 0.01,
+        "vignette": 0.2,
+        "grain": 0.065,
+        "fade": 0.04
+      },
+      "effects": {
+        "fog": 0.05,
+        "glow": 0.0,
+        "dust": 0.08,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Desaturated industrial decay mood with gritty grain and dusty atmosphere.",
+      "tags": [
+        "industrial",
+        "grunge",
+        "abandoned",
+        "dust"
+      ]
+    },
+    {
+      "id": "luxury_nightlife",
+      "name": "Luxury nightlife editorial",
+      "family": "reference_luxury_nightlife",
+      "aliases": [
+        "luxury nightlife",
+        "high end nightlife photo",
+        "elegant club photography",
+        "upscale night out aesthetic"
+      ],
+      "settings": {
+        "exposure": -0.04,
+        "contrast": 1.18,
+        "saturation": 1.02,
+        "temperature": 0.02,
+        "tint": 0.04,
+        "vignette": 0.1,
+        "grain": 0.0,
+        "fade": 0.0
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.1,
+        "dust": 0.0,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Polished low-light editorial with rich contrast and restrained highlight bloom.",
+      "tags": [
+        "luxury",
+        "nightlife",
+        "editorial"
+      ]
+    },
+    {
+      "id": "classic_hollywood",
+      "name": "Classic Hollywood cinema",
+      "family": "reference_classic_hollywood",
+      "aliases": [
+        "classic hollywood",
+        "golden age hollywood",
+        "old hollywood movie",
+        "classic movie star portrait",
+        "hollywood studio portrait"
+      ],
+      "settings": {
+        "exposure": 0.04,
+        "contrast": 1.1,
+        "saturation": 0.82,
+        "temperature": 0.1,
+        "tint": 0.02,
+        "vignette": 0.08,
+        "grain": 0.035,
+        "fade": 0.03
+      },
+      "effects": {
+        "fog": 0.0,
+        "glow": 0.04,
+        "dust": 0.01,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Classic studio-cinema color with refined contrast and subtle film texture.",
+      "tags": [
+        "classic",
+        "hollywood",
+        "vintage"
+      ]
+    },
+    {
+      "id": "hazy_music_video",
+      "name": "Hazy music-video aesthetic",
+      "family": "reference_hazy_music_video",
+      "aliases": [
+        "hazy music video",
+        "cinematic music video",
+        "moody music video",
+        "dreamy music video"
+      ],
+      "settings": {
+        "exposure": -0.02,
+        "contrast": 1.02,
+        "saturation": 0.94,
+        "temperature": 0.02,
+        "tint": 0.06,
+        "vignette": 0.08,
+        "grain": 0.02,
+        "fade": 0.06
+      },
+      "effects": {
+        "fog": 0.04,
+        "glow": 0.15,
+        "dust": 0.015,
+        "rain": 0.0,
+        "snow": 0.0
+      },
+      "description": "Soft cinematic music-video grade with hazy light and restrained saturation.",
+      "tags": [
+        "music-video",
+        "hazy",
+        "cinematic"
+      ]
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "slightly",
+      "aliases": [
+        "slightly",
+        "subtle",
+        "a little",
+        "gentle",
+        "softly"
+      ],
+      "strength": 0.68
+    },
+    {
+      "id": "strong",
+      "aliases": [
+        "very",
+        "strongly",
+        "intense",
+        "extreme",
+        "dramatic",
+        "much more"
+      ],
+      "strength": 1.25
+    },
+    {
+      "id": "extra_dark",
+      "aliases": [
+        "darker",
+        "much darker",
+        "deeper shadows"
+      ],
+      "settings": {
+        "exposure": -0.18,
+        "contrast": 0.08
+      }
+    },
+    {
+      "id": "brighter",
+      "aliases": [
+        "brighter",
+        "more bright",
+        "lift the exposure",
+        "lighter image"
+      ],
+      "settings": {
+        "exposure": 0.18
+      }
+    },
+    {
+      "id": "less_saturation",
+      "aliases": [
+        "less saturated",
+        "less saturation",
+        "desaturate",
+        "reduce saturation"
+      ],
+      "settings": {
+        "saturation": -0.18
+      }
+    },
+    {
+      "id": "more_saturation",
+      "aliases": [
+        "more saturated",
+        "more saturation",
+        "boost saturation"
+      ],
+      "settings": {
+        "saturation": 0.18
+      }
+    },
+    {
+      "id": "soft_contrast",
+      "aliases": [
+        "lower contrast",
+        "less contrast",
+        "softer contrast"
+      ],
+      "settings": {
+        "contrast": -0.14
+      }
+    },
+    {
+      "id": "more_contrast",
+      "aliases": [
+        "more contrast",
+        "increase contrast",
+        "stronger contrast"
+      ],
+      "settings": {
+        "contrast": 0.16
+      }
+    },
+    {
+      "id": "no_fog",
+      "aliases": [
+        "no fog",
+        "without fog",
+        "remove fog",
+        "clear air"
+      ],
+      "effects": {
+        "fog": -0.35
+      }
+    },
+    {
+      "id": "no_grain",
+      "aliases": [
+        "no grain",
+        "without grain",
+        "clean image"
+      ],
+      "settings": {
+        "grain": -0.1
+      }
+    }
+  ]
+}
