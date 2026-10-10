@@ -1,1 +1,1 @@
-"""Image adjustment functions for MOOD."""
+"""MOOD application source package."""
