@@ -25,7 +25,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 MODEL = "gemini-nano-banana-2.1"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
-PORT = int(os.getenv("MOOD_PORT", "7862"))
+PORT = int(os.getenv("PORT", os.getenv("MOOD_PORT", "7862")))
 MAX_UPLOAD_MB = max(5, min(100, int(os.getenv("MOOD_MAX_UPLOAD_MB", "25"))))
 MAX_IMAGE_PIXELS = max(1_000_000, min(50_000_000, int(os.getenv("MOOD_MAX_IMAGE_PIXELS", "25000000"))))
 APP_VERSION = "6.0.0"
@@ -1239,7 +1239,7 @@ with gr.Blocks(
 # ============================================================
 
 if __name__ == "__main__":
-    host = os.getenv("MOOD_HOST", "127.0.0.1").strip() or "127.0.0.1"
+    host = os.getenv("MOOD_HOST", "0.0.0.0" if os.getenv("RENDER") else "127.0.0.1").strip() or "127.0.0.1"
     if host not in {"127.0.0.1", "localhost", "::1"}:
         print("[MOOD SECURITY WARNING] MOOD_HOST exposes the app beyond loopback. Do not use this for public hosting without authentication, TLS, and a hardened deployment.")
     print(f"[MOOD] Release {APP_VERSION}; listening on {host}:{PORT}; upload limit {MAX_UPLOAD_MB} MB; image pixel limit {MAX_IMAGE_PIXELS:,}.")
@@ -1247,7 +1247,7 @@ if __name__ == "__main__":
     demo.launch(
         server_name=host,
         server_port=PORT,
-        inbrowser=True,
+        inbrowser=not bool(os.getenv("RENDER")),
         show_error=False,
         share=False,
         theme=gr.themes.Base(
