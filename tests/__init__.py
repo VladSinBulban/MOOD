@@ -1,0 +1,1 @@
+"""MOOD photo editor tests."""
